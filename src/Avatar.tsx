@@ -164,4 +164,3 @@ Avatar.propTypes = {
     right: StylePropType,
   }),
 }
-
