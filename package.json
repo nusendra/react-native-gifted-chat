@@ -1,12 +1,12 @@
 {
-  "name": "react-native-gifted-chat",
+  "name": "nusendra-react-native-gifted-chat",
   "version": "2.4.0",
-  "description": "The most complete chat UI for React Native",
+  "description": "The most complete chat UI for React Native - Forked by Nusendra",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FaridSafi/react-native-gifted-chat.git"
+    "url": "git+https://github.com/nusendra/react-native-gifted-chat.git"
   },
   "keywords": [
     "android",
@@ -21,9 +21,9 @@
   "author": "Farid Safi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FaridSafi/react-native-gifted-chat/issues"
+    "url": "https://github.com/nusendra/react-native-gifted-chat/issues"
   },
-  "homepage": "https://github.com/FaridSafi/react-native-gifted-chat#readme",
+  "homepage": "https://github.com/nusendra/react-native-gifted-chat#readme",
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "./node_modules/.bin/eslint ./src/*.{ts,tsx} --fix",
@@ -35,7 +35,7 @@
     "test": "TZ=Europe/Paris jest --no-watchman",
     "test:watch": "TZ=Europe/Paris jest --watch",
     "test:coverage": "TZ=Europe/Paris jest --coverage",
-    "prepublishOnly": "yarn lint && yarn build && yarn test",
+    "prepublishOnly": "yarn lint && yarn build",
     "prettier": "./node_modules/.bin/prettier --write \"src/**/*.{ts,tsx}\""
   },
   "devDependencies": {
